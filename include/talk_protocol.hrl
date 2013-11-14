@@ -1,0 +1,3 @@
+-define(ProtoSig, 2#01100000).
+-define(NoCompression, 0).
+-define(ZipCompression, 1).

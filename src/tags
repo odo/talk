@@ -1,0 +1,4 @@
+handle_call	talk.erl	/^handle_call($/
+is_acknowledged	talk.erl	/^    case is_acknowledged(SeqNos, LocalSeqsAcked) o/
+is_set	talk.erl	/^    case sets:is_set(SeqNoOrSeqNos) of$/
+record	talk.erl	/^record(Packet, Server) when is_binary(Packet) ->$/

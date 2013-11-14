@@ -1,0 +1,13 @@
+{application, talk,
+ [
+  {description, "A UDP book keeping server."},
+  {vsn, git},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { talk, []}},
+  {env, []}
+ ]}.
+

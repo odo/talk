@@ -1,6 +1,10 @@
 .eunit
 deps
+ebin/
+log/
 *.o
 *.beam
 *.plt
+.DS_Store
 erl_crash.dump
+tags
