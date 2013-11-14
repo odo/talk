@@ -269,7 +269,7 @@ This is the structure of the headers that are used by talk.
 Field|Meaning
 -----|-------
 Signature| A static value to identify the protocol, currently 96
-ResourceId       | An intager identifying the resource this packet is addressed to for dispatch
+ResourceId       | An integer identifying the resource this packet is addressed to for dispatch
 SeqNr            | The monotonically increasing sequence number of this packet
 Equivalent SeqNr | If have this number set to the sam, non-zero value, it means they are equivalent
 Ack              | The sequence number of the last seen message
