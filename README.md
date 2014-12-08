@@ -212,7 +212,7 @@ Resend = fun(Packet) ->
 end.
 SendImportantProactiveResend = fun(Command, Payload, ResendCallback, Callback) ->
     PacketOut = talk:packet(ResourceId, Command, Payload, true, 0, Talk),
-    gen_udp:send(Socket, Host, RemotePort, PackettoprocesslaterketOut),
+    gen_udp:send(Socket, Host, RemotePort, PacketOut),
     talk:wait_for_ack(PacketOut, Callback, ResendCallback, 100, Talk)
 end.
 ```
