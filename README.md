@@ -120,7 +120,7 @@ left                                          |right
 `>> {{0,1,<<"hello back">>},true,undefined}` | -
 
 So after sending our important message like before (except setting WaitForAck to true in `talk:packet/6`), we told talk to notify us of the acknowledgement and print a message.
-As soon as the other side send a message back, the callback was triggered. So in order to have important messages to be acknowledged it is helpful to have some background communication going on, maybe in the form of ping and pong messages been exchanged at a fixed interval.
+As soon as the other side sent a message back, the callback was triggered. So in order to have important messages to be acknowledged it is helpful to have some background communication going on, maybe in the form of ping and pong messages been exchanged at a fixed interval.
 
 ### Handling packet loss
 
