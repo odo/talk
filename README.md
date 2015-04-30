@@ -3,6 +3,8 @@
 
 talk is an erlang generic server that does the book keeping around a conversation over UDP.
 
+This is most useful in games.
+
 UDP makes no guarantees about the order of packets or their delivery so this has to be handled by the application.
 By not making this guarantees it needs less roundtrips than TCP and is thus much faster.
 
