@@ -148,7 +148,6 @@ left                                          |right
 - | `Send(HiCmd, <<"hello back">>).`
 `{_Message, _Handle, ResendPacket} = Recv().` | -
 `>> {{0,1,<<"hello back">>},true,<<96,0,0...>>}` | -
-- | `{{0,2,<<"dinner is ready">>},false,undefined}`
 
 We can see that after receiving the message, talk on the left side tells us that the other side did not see our important message and hands us a new but equivalent packet which we send.
 
